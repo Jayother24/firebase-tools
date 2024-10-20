@@ -1,0 +1,3 @@
+exports.helloFn1 = functions.https.onRequest((request, response) => {
+    response.send("Hello from Fn1!");
+})
